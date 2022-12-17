@@ -41,6 +41,7 @@ header::after {
     top: 0;
     left: 0;
     width: 100%;
+    background: rgba(1, 1, 1, 0.541);
     height: 100%;
     z-index: 10000;
     mix-blend-mode: color;
@@ -126,6 +127,6 @@ header img{
 #Title{
     position: relative;
     color: white;
-    font-size: 10em;
+    font-size: 7em;
     z-index: 1;
 }
