@@ -2,17 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bias in AI</title>
 </head>
-</head>
-<header>
-    <h1>Research Paper: Bias in AI</h1>
-</header>
 <body>
-    <div class="container">
-    We cannot trust AI to be free of bias due to developer training data often being inadequate for representation and the methodology or model design being poor. A prime example of this is a chest X-ray diagnosis AI used in healthcare. This AI was found to under-diagnose those in less represented groups: “The authors found consistent underdiagnosis of female patients, patients under 20 years old, Black patients, Hispanic patients and patients with Medicaid insurance (who are typically of lower socioeconomic status), as well as intersectional subgroups''(Cho, 2021). Because this AI was trained with a dataset mostly targeted at the more represented groups (males and caucasions), the model did not have enough exposure to those other groups to reliably diagnose them, and when it comes to a misdiagnosis, especially a false negative, it could lead to someone losing their life over an AI’s bias. Additionally, as Michael et al (2021) points out, it can be difficult to have representative training data given the data that exists: “Certain communities are discriminated against either because too much training data exists on that community historically, or not enough. This is an endemic issue in the original training dataset that has been collected, without adequate testing for sample representation”. This quality of AI almost assures that AI will never be 100% free of bias because historical data is often overly representative of majority groups, or often in other cases has too much data on underrepresented groups. One area where this problem has been especially prevalent is in biometrics (facial recognition) software. As also noted in Michael et al (2021), the training data sets used to train these AI are often pictures of predominantly white people and men. Overall, it is unlikely that AIs training data will be adequately representative of the target population.
-    </div>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="index.html" ><img src="media/logo.png" alt="AI" class="logo"></a> 
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bibliography.html">Works Cited</a></li>
+                <li><a href="author.html">Author</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text_box">
+                <h2><span>Training Data</span> is Often Biased</h2>
+                <p>
+                    We cannot trust AI to be free of bias due to developer training data often being inadequate for representation and the methodology or model design being poor.
+                    A prime example of this is a chest X-ray diagnosis AI used in healthcare. This AI was found to under-diagnose those in less represented groups: 
+                    “The authors found consistent underdiagnosis of female patients, patients under 20 years old, Black patients, Hispanic patients and patients with Medicaid insurance
+                    (who are typically of lower socioeconomic status), as well as intersectional subgroups''(Cho, 2021). Because this AI was trained with a dataset mostly targeted at the more 
+                    represented groups (males and caucasions), the model did not have enough exposure to those other groups to reliably diagnose them, and when it comes to a misdiagnosis, 
+                    especially a false negative, it could lead to someone losing their life over an AI's bias. Additionally, as Michael et al (2021) points out, it can be difficult to have 
+                    representative training data given the data that exists: “Certain communities are discriminated against either because too much training data exists on that community 
+                    historically, or not enough. This is an endemic issue in the original training dataset that has been collected, without adequate testing for sample representation”. 
+                    This quality of AI almost assures that AI will never be 100% free of bias because historical data is often overly representative of majority groups, or often in other 
+                    cases has too much data on underrepresented groups. One area where this problem has been especially prevalent is in biometrics (facial recognition) software. As also 
+                    noted in Michael et al (2021), the training data sets used to train these AI are often pictures of predominantly white people and men. 
+                    Overall, it is unlikely that AIs training data will be adequately representative of the target population.
+                </p>
+            </div>
+            <div class="card_box">
+                <a href="train.html">
+                    <div class="card">
+                        <div class="card_image"> <img src="media/training.jpeg" /></div>
+                        <div class="card_title">
+                        <p>Training Data</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="bias.html">
+                <div class="card">
+                    <div class="card_image"> <img src="media/bias.jpeg" /></div>
+                    <div class="card_title">
+                      <p>Embedded Bias</p>
+                    </div>
+                </div>
+                </a>
+                <a href="regulation.html">
+                <div class="card">
+                    <div class="card_image"> <img src="media/law.jpeg" /></div>
+                    <div class="card_title">
+                      <p>Lack of Regulation</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
 </body>
 </html>
